@@ -157,7 +157,8 @@ body {
 ========================= */
 .hero {
   min-height: calc(100vh - 120px);
-  background: url("../img/hero-banner.jpg") center/cover no-repeat;
+  /* Fixed path relative to CSS file */
+  background: url('../img/hero-banner.jpg') center/cover no-repeat;
 }
 
 .hero-overlay {
@@ -301,7 +302,7 @@ body {
    CONTACT
 ========================= */
 .contact-section {
-  background: url("../img/concrete.jpg") center/cover no-repeat;
+  background: url('../img/concrete.jpg') center/cover no-repeat; /* fixed path */
   padding: 120px 0;
   position: relative;
   color: #fff;
@@ -348,3 +349,4 @@ body {
     font-size: 38px;
   }
 }
+
